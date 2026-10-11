@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4dp"
+        android:text="AutoSharePosterは、アプリ内で写真を撮影すると、確認を挟まず直接公式のX（Twitter）アプリへ受け渡して投稿できるアプリです。"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="【ご注意・自動削除の仕組み】"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="4dp"
+        android:text="・本アプリで撮影した写真は、Xアプリから戻った際に確認なしで自動的に端末から削除されます（端末のストレージを消費しません）。\n・Xで投稿を完了せずに戻った場合でも写真は削除されますので、残したい写真は事前にバックアップしてください。"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="13sp" />
+
+    <CheckBox
+        android:id="@+id/checkboxDoNotShowAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="次回から表示しない"
+        android:textSize="14sp" />
+
+</LinearLayout>

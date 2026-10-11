@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- メインアプリテーマ -->
+    <style name="Theme.AutoSharePoster" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1DA1F2</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+    <!-- 透明アクティビティ用テーマ (Material3対応) -->
+    <style name="Theme.AutoSharePoster.Translucent" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

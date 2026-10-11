@@ -1,0 +1,6 @@
+{
+  "name": "AutoSharePoster",
+  "description": "X (Twitter) への画像受け渡しと、投稿完了後の元画像自動・確認削除を行うアプリ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
